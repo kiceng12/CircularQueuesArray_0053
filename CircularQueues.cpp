@@ -55,8 +55,15 @@ public:
 	        //jika elemen yang di hapus berada di posos terakhir array, kembali ke awal array
 	        if (FRONT == max - 1)
 		        FRONT == 0;
-	    else
+	        else
 		        FRONT = FRONT + 1;
-    }    
+        }   
+    }
 
+    	void display() {
+		int FRONT_postition = FRONT;
+		int REAR_postition = FRONT;
+        }
 };
+
+     
