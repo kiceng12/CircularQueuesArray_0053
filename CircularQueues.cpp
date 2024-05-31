@@ -45,5 +45,12 @@ public:
 	        return;
         }
          cout << "\nlement deleted from the Queue is : " << queue_array[FRONT] << "\n";
-    }
+
+         // Cek jika antrian hanya memili satu elemen
+         if (FRONT == REAR) {
+	         FRONT = -1;
+	         REAR = -1;
+        }
+    }    
+
 };
